@@ -8,9 +8,9 @@ on:
 env:
   PROJECT_ID: ai-chat-498011
   REGION: asia-northeast1
-  REPOSITORY: ai-chat
   SERVICE: ai-chat
   IMAGE: asia-northeast1-docker.pkg.dev/ai-chat-498011/ai-chat/ai-chat
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   deploy:
